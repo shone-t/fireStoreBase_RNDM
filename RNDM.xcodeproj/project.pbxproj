@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52DA6B8122F84797008BA5D0 /* AddThoughtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA6B8022F84797008BA5D0 /* AddThoughtVC.swift */; };
+		52DA6B8722F85E4B008BA5D0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA6B8622F85E4B008BA5D0 /* Constants.swift */; };
 		52DB7CD522F5A44A004E74BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB7CD422F5A44A004E74BA /* AppDelegate.swift */; };
-		52DB7CD722F5A44A004E74BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB7CD622F5A44A004E74BA /* ViewController.swift */; };
+		52DB7CD722F5A44A004E74BA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB7CD622F5A44A004E74BA /* MainVC.swift */; };
 		52DB7CDA22F5A44A004E74BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DB7CD822F5A44A004E74BA /* Main.storyboard */; };
 		52DB7CDC22F5A44C004E74BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DB7CDB22F5A44C004E74BA /* Assets.xcassets */; };
 		52DB7CDF22F5A44C004E74BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DB7CDD22F5A44C004E74BA /* LaunchScreen.storyboard */; };
+		52DB7CE722F5A5D4004E74BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52DB7CE622F5A5D4004E74BA /* GoogleService-Info.plist */; };
+		6D3CA7898E7AE15CB9E4153D /* Pods_RNDM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2C95CC4544022BC594957F /* Pods_RNDM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5101C99443FB3662EADFD4BF /* Pods-RNDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNDM/Pods-RNDM.debug.xcconfig"; sourceTree = "<group>"; };
+		52DA6B8022F84797008BA5D0 /* AddThoughtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThoughtVC.swift; sourceTree = "<group>"; };
+		52DA6B8622F85E4B008BA5D0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		52DB7CD122F5A44A004E74BA /* RNDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DB7CD422F5A44A004E74BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52DB7CD622F5A44A004E74BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52DB7CD622F5A44A004E74BA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		52DB7CD922F5A44A004E74BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52DB7CDB22F5A44C004E74BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52DB7CDE22F5A44C004E74BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52DB7CE022F5A44C004E74BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DB7CE622F5A5D4004E74BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B2C95CC4544022BC594957F /* Pods_RNDM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNDM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A097D22D075A3F9E7F26C3 /* Pods-RNDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNDM/Pods-RNDM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3CA7898E7AE15CB9E4153D /* Pods_RNDM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52DA6B8222F8479F008BA5D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52DB7CD622F5A44A004E74BA /* MainVC.swift */,
+				52DA6B8022F84797008BA5D0 /* AddThoughtVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52DA6B8322F847A7008BA5D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52DA6B8422F847AF008BA5D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52DA6B8522F85E33008BA5D0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				52DA6B8622F85E4B008BA5D0 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		52DB7CC822F5A44A004E74BA = {
 			isa = PBXGroup;
 			children = (
 				52DB7CD322F5A44A004E74BA /* RNDM */,
 				52DB7CD222F5A44A004E74BA /* Products */,
+				6FE29675F023C702F0E1F1D1 /* Pods */,
+				9EABA7C8C9467BF9AFF5B275 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,35 @@
 		52DB7CD322F5A44A004E74BA /* RNDM */ = {
 			isa = PBXGroup;
 			children = (
-				52DB7CD422F5A44A004E74BA /* AppDelegate.swift */,
-				52DB7CD622F5A44A004E74BA /* ViewController.swift */,
+				52DA6B8522F85E33008BA5D0 /* Utilities */,
+				52DA6B8422F847AF008BA5D0 /* Model */,
+				52DA6B8322F847A7008BA5D0 /* View */,
+				52DA6B8222F8479F008BA5D0 /* Controller */,
 				52DB7CD822F5A44A004E74BA /* Main.storyboard */,
+				52DB7CD422F5A44A004E74BA /* AppDelegate.swift */,
 				52DB7CDB22F5A44C004E74BA /* Assets.xcassets */,
 				52DB7CDD22F5A44C004E74BA /* LaunchScreen.storyboard */,
 				52DB7CE022F5A44C004E74BA /* Info.plist */,
+				52DB7CE622F5A5D4004E74BA /* GoogleService-Info.plist */,
 			);
 			path = RNDM;
+			sourceTree = "<group>";
+		};
+		6FE29675F023C702F0E1F1D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5101C99443FB3662EADFD4BF /* Pods-RNDM.debug.xcconfig */,
+				F4A097D22D075A3F9E7F26C3 /* Pods-RNDM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EABA7C8C9467BF9AFF5B275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B2C95CC4544022BC594957F /* Pods_RNDM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52DB7CE322F5A44C004E74BA /* Build configuration list for PBXNativeTarget "RNDM" */;
 			buildPhases = (
+				6F8BCA02E70950B18D3FCB1E /* [CP] Check Pods Manifest.lock */,
 				52DB7CCD22F5A44A004E74BA /* Sources */,
 				52DB7CCE22F5A44A004E74BA /* Frameworks */,
 				52DB7CCF22F5A44A004E74BA /* Resources */,
+				21384A69D7219557F965995B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52DB7CDF22F5A44C004E74BA /* LaunchScreen.storyboard in Resources */,
+				52DB7CE722F5A5D4004E74BA /* GoogleService-Info.plist in Resources */,
 				52DB7CDC22F5A44C004E74BA /* Assets.xcassets in Resources */,
 				52DB7CDA22F5A44A004E74BA /* Main.storyboard in Resources */,
 			);
@@ -130,13 +198,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21384A69D7219557F965995B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RNDM/Pods-RNDM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNDM/Pods-RNDM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F8BCA02E70950B18D3FCB1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNDM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52DB7CCD22F5A44A004E74BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DB7CD722F5A44A004E74BA /* ViewController.swift in Sources */,
+				52DA6B8122F84797008BA5D0 /* AddThoughtVC.swift in Sources */,
+				52DB7CD722F5A44A004E74BA /* MainVC.swift in Sources */,
 				52DB7CD522F5A44A004E74BA /* AppDelegate.swift in Sources */,
+				52DA6B8722F85E4B008BA5D0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +401,7 @@
 		};
 		52DB7CE422F5A44C004E74BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5101C99443FB3662EADFD4BF /* Pods-RNDM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +414,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = shone.RNDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		52DB7CE522F5A44C004E74BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A097D22D075A3F9E7F26C3 /* Pods-RNDM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = shone.RNDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
