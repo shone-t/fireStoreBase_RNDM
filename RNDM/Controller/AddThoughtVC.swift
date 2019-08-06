@@ -63,20 +63,6 @@ class AddThoughtVC: UIViewController, UITextViewDelegate {
             THOUGHT_TXT : thoughtTxt.text,
             TIMESTAMP : FieldValue.serverTimestamp(),
             USERNAME: username
-
-//            "category" : selectedCategory,
-//            "numComments" : 0,
-//            "numLikes" : 0,
-//            "thoughtTxt" : thoughtTxt.text,
-//            "timestamp" : FieldValue.serverTimestamp(),
-//            "username" : username
-            
-//        let CATEGORY = "category"
-//        let NUM_COMMENTS = "numComments"
-//        let NUM_LIKES = "numLikes"
-//        let THOUGHT_TXT = "thoughtTxt"
-//        let TIMESTAMP = "timestamp"
-//        let USERNAME = "username"
             
         ]) { (err) in
             if let err = err {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5204308B22F9C2E8009129FC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204308A22F9C2E8009129FC /* LoginVC.swift */; };
 		52DA6B8122F84797008BA5D0 /* AddThoughtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA6B8022F84797008BA5D0 /* AddThoughtVC.swift */; };
 		52DA6B8722F85E4B008BA5D0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA6B8622F85E4B008BA5D0 /* Constants.swift */; };
 		52DA6B8922F871DA008BA5D0 /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA6B8822F871DA008BA5D0 /* Thought.swift */; };
@@ -17,11 +18,13 @@
 		52DB7CDC22F5A44C004E74BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DB7CDB22F5A44C004E74BA /* Assets.xcassets */; };
 		52DB7CDF22F5A44C004E74BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DB7CDD22F5A44C004E74BA /* LaunchScreen.storyboard */; };
 		52DB7CE722F5A5D4004E74BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52DB7CE622F5A5D4004E74BA /* GoogleService-Info.plist */; };
+		52FB62AA22F9D13E00AEFF34 /* CreateUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB62A922F9D13E00AEFF34 /* CreateUserVC.swift */; };
 		6D3CA7898E7AE15CB9E4153D /* Pods_RNDM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2C95CC4544022BC594957F /* Pods_RNDM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5101C99443FB3662EADFD4BF /* Pods-RNDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNDM/Pods-RNDM.debug.xcconfig"; sourceTree = "<group>"; };
+		5204308A22F9C2E8009129FC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		52DA6B8022F84797008BA5D0 /* AddThoughtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThoughtVC.swift; sourceTree = "<group>"; };
 		52DA6B8622F85E4B008BA5D0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		52DA6B8822F871DA008BA5D0 /* Thought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		52DB7CDE22F5A44C004E74BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52DB7CE022F5A44C004E74BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52DB7CE622F5A5D4004E74BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52FB62A922F9D13E00AEFF34 /* CreateUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserVC.swift; sourceTree = "<group>"; };
 		9B2C95CC4544022BC594957F /* Pods_RNDM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNDM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A097D22D075A3F9E7F26C3 /* Pods-RNDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNDM/Pods-RNDM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +59,8 @@
 			children = (
 				52DB7CD622F5A44A004E74BA /* MainVC.swift */,
 				52DA6B8022F84797008BA5D0 /* AddThoughtVC.swift */,
+				5204308A22F9C2E8009129FC /* LoginVC.swift */,
+				52FB62A922F9D13E00AEFF34 /* CreateUserVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52DA6B8122F84797008BA5D0 /* AddThoughtVC.swift in Sources */,
+				52FB62AA22F9D13E00AEFF34 /* CreateUserVC.swift in Sources */,
 				52DA6B8922F871DA008BA5D0 /* Thought.swift in Sources */,
+				5204308B22F9C2E8009129FC /* LoginVC.swift in Sources */,
 				52DB7CD722F5A44A004E74BA /* MainVC.swift in Sources */,
 				52DA6B8B22F87349008BA5D0 /* ThoughtCell.swift in Sources */,
 				52DB7CD522F5A44A004E74BA /* AppDelegate.swift in Sources */,

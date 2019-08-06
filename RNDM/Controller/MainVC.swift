@@ -34,7 +34,11 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         tableView.delegate = self
         tableView.dataSource = self
         
-        tableView.estimatedRowHeight = 80
+        //tableView.estimatedRowHeight = 80
+        
+//        tableView.rowHeight = UITableView.automaticDimension
+//        tableView.estimatedRowHeight = 600
+
         //
         //        tableView.rowHeight = UITableView.automaticDimension
         //        tableView.rowHeight = 96
