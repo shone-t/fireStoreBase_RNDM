@@ -12,13 +12,13 @@ import Firebase
 class AddThoughtVC: UIViewController, UITextViewDelegate {
 
     // Outlets
-    @IBOutlet weak var categorySegment: UISegmentedControl!
-    @IBOutlet weak var userNameTxt: UITextField!
-    @IBOutlet weak var thoughtTxt: UITextView!
-    @IBOutlet weak var postBtn: UIButton!
+    @IBOutlet private weak var categorySegment: UISegmentedControl!
+    @IBOutlet private weak var userNameTxt: UITextField!
+    @IBOutlet private weak var thoughtTxt: UITextView!
+    @IBOutlet private weak var postBtn: UIButton!
     
     // Variables
-    private var selectedCategory = "funny" //ThoughtCategory.funny.rawValue
+    private var selectedCategory = ThoughtCategory.funny.rawValue
     
     override func viewDidLoad() {
         super.viewDidLoad()
