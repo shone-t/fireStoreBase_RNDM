@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FC16E5B7413FBDDC86D726F7FAE4DE9B"
+               BlueprintIdentifier = "5371FE86E302BAE00DEEA0FBC5F65783"
                BlueprintName = "Pods-RNDM"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Pods-RNDM.framework">
