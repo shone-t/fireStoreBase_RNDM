@@ -9,6 +9,10 @@
 import UIKit
 import Firebase
 
+protocol ThoughtDelegate {
+    func thoughtOptionsTapped(thought: Thought)
+}
+
 class ThoughtCell: UITableViewCell {
     
     @IBOutlet weak var usernameLbl: UILabel!
@@ -19,9 +23,14 @@ class ThoughtCell: UITableViewCell {
     
     @IBOutlet weak var commentsNumLbl: UILabel!
     
+    @IBOutlet weak var optionsMenu: UIImageView!
+    
+    
     
     //Variables
     private var thought: Thought!
+    
+    private var delegate: ThoughtDelegate?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -42,8 +51,12 @@ class ThoughtCell: UITableViewCell {
         .updateData([NUM_LIKES : thought.numLikes + 1])
     }
 
-    func configureCell(thought: Thought){
+    func configureCell(thought: Thought, delegate: ThoughtDelegate){
+        optionsMenu.isHidden = true
+        
         self.thought = thought
+        //ovo je dodato naknadno
+        self.delegate = delegate
         
         usernameLbl.text = thought.username
         //timeStampLbl.text = "\(thought.timestamp)"
@@ -56,6 +69,16 @@ class ThoughtCell: UITableViewCell {
         formatter.dateFormat = "dd MM, HH:mm"
         let timestamp = formatter.string(from: thought.timestamp)
         timeStampLbl.text = timestamp
+        
+        if thought.userId == Auth.auth().currentUser?.uid {
+            optionsMenu.isHidden = false
+            optionsMenu.isUserInteractionEnabled = true
+            let tap = UITapGestureRecognizer(target: self, action: #selector(thoughtOptionsTap))
+            optionsMenu.addGestureRecognizer(tap)
+        }
     }
 
+    @objc func thoughtOptionsTap() {
+        delegate?.thoughtOptionsTapped(thought: thought)
+    }
 }

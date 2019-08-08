@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5204308B22F9C2E8009129FC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204308A22F9C2E8009129FC /* LoginVC.swift */; };
+		5286E8FD22FC3B2800DDBF79 /* UpdateCommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286E8FC22FC3B2800DDBF79 /* UpdateCommentVC.swift */; };
 		52D7A43C22FB258400E0DF32 /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7A43B22FB258400E0DF32 /* CommentsVC.swift */; };
 		52D7A43E22FB2A2E00E0DF32 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7A43D22FB2A2E00E0DF32 /* CommentCell.swift */; };
 		52D7A44022FB2BF700E0DF32 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7A43F22FB2BF700E0DF32 /* Comments.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		5101C99443FB3662EADFD4BF /* Pods-RNDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNDM/Pods-RNDM.debug.xcconfig"; sourceTree = "<group>"; };
 		5204308A22F9C2E8009129FC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5286E8FC22FC3B2800DDBF79 /* UpdateCommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCommentVC.swift; sourceTree = "<group>"; };
 		52D7A43B22FB258400E0DF32 /* CommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
 		52D7A43D22FB2A2E00E0DF32 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		52D7A43F22FB2BF700E0DF32 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				5204308A22F9C2E8009129FC /* LoginVC.swift */,
 				52FB62A922F9D13E00AEFF34 /* CreateUserVC.swift */,
 				52D7A43B22FB258400E0DF32 /* CommentsVC.swift */,
+				5286E8FC22FC3B2800DDBF79 /* UpdateCommentVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				52FB62AA22F9D13E00AEFF34 /* CreateUserVC.swift in Sources */,
 				52DA6B8922F871DA008BA5D0 /* Thought.swift in Sources */,
 				5204308B22F9C2E8009129FC /* LoginVC.swift in Sources */,
+				5286E8FD22FC3B2800DDBF79 /* UpdateCommentVC.swift in Sources */,
 				52D7A44022FB2BF700E0DF32 /* Comments.swift in Sources */,
 				52DB7CD722F5A44A004E74BA /* MainVC.swift in Sources */,
 				52D7A43E22FB2A2E00E0DF32 /* CommentCell.swift in Sources */,
